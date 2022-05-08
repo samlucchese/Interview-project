@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-bottom: 70px;
+}
+
+.background {
+  background-image: url("/img/hero-banner-desktop-size.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -5;
+  position: absolute;
+}
+
+.accreditations {
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #6a6969;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-lb {
+  background-color: #F2F8FC;
+}
+
+.body-text {
+  font: 100% "Raleway";
+  font-size: 18px;
+  font-weight: 300;
+  color: #4b4b4b;
+}
+
+.button1 {
+  height: 65px;
+  width: 370px;
+  background-color: #007ABA;
+  font: 100% "Raleway";
+  color: #ffffff;
+  border: none;
+}
+
+.button2 {
+  height: 65px;
+  width: 370px;
+  background-color: transparent;
+  font: 100% "Raleway";
+  color: #007ABA;
+  border: 1px solid #007ABA;
+}
+
+.big-logo {
+  float: left;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.card {
+  font: 100% "Raleway";
+}
+
+.card .card-text {
+  font-weight: 300;
+  font-size: 18px;
+  color: #4b4b4b;
+}
+
+.card .card-space {
+  line-height: 1.5em;
+}
+
+.card .card-horizontal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 5%;
+  border: none;
+}
+
+.card .card-link {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.center-text {
+  text-align: center;
+  font: "Raleway";
+}
+
+.consultation {
+  background-color: #007ABA;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 2vh;
+  font: 2vh "Raleway", bold;
+  height: 7vh;
+}
+
+.fill {
+  background-color: black;
+}
+
+.footer {
+  min-height: 20vh;
+  min-width: 100vw;
+  background-color: #007ABA;
+  font: 100% "Raleway";
+  color: #ffffff;
+  padding-top: 4%;
+  bottom: 0;
+  text-align: left;
+}
+
+.h1-heading {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%;
+  font: 100% "Raleway";
+}
+
+.icons {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  size: 40vw;
+}
+
+.line-space {
+  line-height: 2.5em;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.mynav {
+  font: 2vh "Raleway";
+  font-size: 15px;
+  color: #151515;
+  display: inline;
+}
+
+.mynav li {
+  margin-right: 10px;
+  list-style-type: none;
+  color: #151515;
+}
+
+.mynav .navbar-nav .nav-link {
+  color: #151515;
+  font-weight: 600;
+}
+
+.navbar-brand {
+  height: 10vh;
+}
+
+.navbar-fixed {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  min-height: 15vh;
+}
+
+.orange {
+  color: #fa4616;
+}
+
+.page-title {
+  font: 100% "Raleway";
+  font-weight: 600;
+  font-size: 40px;
+  padding-top: 5%;
+}
+
+.phone-num {
+  color: #007ABA;
+  font: 3vh "Raleway";
+  text-align: center;
+}
+
+.procedures {
+  font: 100% "Raleway";
+  min-height: 100px;
+  background-color: #F2F8FC;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.procedures .card-deck {
+  padding-top: 3%;
+}
+
+.procedures .card-deck .card {
+  border: none;
+  background-color: transparent;
+}
+
+.procedures .card-deck .card-title {
+  text-align: left;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.procedures .card-deck .card-text {
+  font-size: 18px;
+  line-height: 2.5em;
+}
+
+.procedures .card-deck .card-link {
+  font-size: 18px;
+  color: #007ABA;
+  text-transform: uppercase;
+}
+
+.subtab {
+  font: 100% "Raleway";
+  font-size: 15px;
+}
+
+.text-nowrap {
+  white-space: nowrap;
+}
+
+.to-top {
+  margin-right: 5%;
+  text-align: right;
+}
+
+.thin {
+  font-weight: 100;
+}
+
+.white {
+  color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */

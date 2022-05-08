@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    padding-bottom: 70px;
+}
+
+.background {
+    $header-img: url('/img/hero-banner-desktop-size.jpg');
+    background-image: $header-img;
+    // object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    // background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -5;
+    position: absolute;
+
+}
+
+
+$raleway: 'Raleway';
+$blue-color: #007ABA;
+$white: #ffffff;
+$black: #151515;
+$secondary: #fa4616;
+$bodytext: #4b4b4b;
+$bodytext-light: #6a6969;
+$light-blue: #F2F8FC;
+
+
+$headings: 40px;
+$sub-headings: 30px;
+$quotes: 18px;
+$body-text: 18px;
+$nav-tab: 15px;
+$procedure-title: 32px;
+
+$thin: 100;
+$light: 300;
+$regular: 400;
+$semi: 600;
+$bold: 700;
+
+.accreditations {
+    font-size: $nav-tab;
+    letter-spacing: 2px;
+    color: $bodytext-light;
+}
+
+.bg-white {
+    background-color: $white;
+}
+
+.bg-lb {
+    background-color: $light-blue;
+}
+
+.body-text {
+    font: 100% $raleway;
+    font-size: $body-text;
+    font-weight: $light;
+    color: $bodytext;
+}
+
+
+.button1 {
+    height: 65px;
+    width: 370px;
+    background-color: $blue-color;
+    font: 100% $raleway;
+    color: $white;
+    border: none;
+
+}
+
+.button2 {
+    height: 65px;
+    width: 370px;
+    background-color: transparent;
+    font: 100% $raleway;
+    color: $blue-color;
+    border: 1px solid $blue-color;
+}
+
+.big-logo {
+    float: left;
+    height: fit-content;
+    width: fit-content;
+}
+
+
+
+.card {
+
+    font: 100% $raleway;
+
+    .card-text {
+        font-weight: $light;
+        font-size: $body-text;
+        color: $bodytext;
+    }
+
+    .card-space {
+        line-height: 1.5em;
+    }
+
+    .card-horizontal {
+        display: flex;
+        flex: 1 1 auto;
+        padding: 5%;
+        border: none;
+    }
+
+    .card-link {
+        font-weight: $semi;
+        font-size: $body-text;
+    }
+
+
+}
+
+
+
+.center-text {
+    text-align: center;
+    font: $raleway;
+}
+
+
+.consultation {
+
+    background-color: $blue-color;
+    color: $white;
+    text-align: center;
+    padding-top: 2vh;
+    font: 2vh $raleway, bold;
+    height: 7vh;
+    // vertical-align: middle;
+    // display: inline;
+    // font-size: 16px;
+
+}
+
+
+
+.fill {
+    background-color: black;
+}
+
+
+
+.footer {
+    min-height: 20vh;
+    min-width: 100vw;
+    background-color: $blue-color;
+    font: 100% $raleway;
+    color: $white;
+    padding-top: 4%;
+    bottom: 0;
+    text-align: left;
+
+}
+
+
+
+.h1-heading {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    font: 100% $raleway;
+}
+
+
+
+.icons {
+    align-items: center;
+    size: 40vw;
+}
+
+
+.line-space {
+    line-height: 2.5em;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.mynav {
+    font: 2vh $raleway;
+    font-size: $nav-tab;
+    color: $black;
+    display: inline;
+}
+
+.mynav li {
+
+    margin-right: 10px;
+    list-style-type: none;
+    color: $black;
+
+}
+
+.mynav .navbar-nav .nav-link {
+    color: $black;
+    font-weight: 600
+}
+
+.navbar-brand {
+    height: 10vh;
+}
+
+.navbar-fixed {
+    top: 0;
+    // z-index: 100;
+    position: fixed;
+    width: 100%;
+    min-height: 15vh
+}
+
+
+.orange {
+    color: $secondary;
+
+}
+
+.page-title {
+    font: 100% $raleway;
+    font-weight: $semi;
+    font-size: $headings;
+    padding-top: 5%;
+}
+
+
+
+.phone-num {
+    color: $blue-color;
+    font: 3vh $raleway;
+    text-align: center;
+}
+
+.procedures {
+    font: 100% $raleway;
+    min-height: 100px;
+    background-color: $light-blue;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    .card-deck {
+        padding-top: 3%;
+
+
+        .card {
+            border: none;
+            background-color: transparent;
+        }
+
+        .card-title {
+            text-align: left;
+            font-size: $procedure-title;
+            font-weight: $semi;
+
+        }
+
+        .card-text {
+            font-size: $body-text;
+            line-height: 2.5em;
+        }
+
+        .card-link {
+            font-size: $body-text;
+            color: $blue-color;
+            text-transform: uppercase;
+        }
+    }
+}
+
+
+
+
+.subtab {
+    font: 100% $raleway;
+    font-size: 15px;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+.to-top {
+    margin-right: 5%;
+    text-align: right;
+}
+
+.thin {
+    font-weight: $thin;
+}
+
+
+.white {
+    color: $white;
+}
