@@ -8,6 +8,12 @@ body {
   padding-bottom: 70px;
 }
 
+.accreditations {
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #6a6969;
+}
+
 .background {
   background-image: url("/img/hero-banner-desktop-size.jpg");
   height: 100vh;
@@ -17,12 +23,6 @@ body {
   background-size: cover;
   z-index: -5;
   position: absolute;
-}
-
-.accreditations {
-  font-size: 15px;
-  letter-spacing: 2px;
-  color: #6a6969;
 }
 
 .bg-white {
@@ -96,6 +96,10 @@ body {
 .card .card-link {
   font-weight: 600;
   font-size: 18px;
+}
+
+.card .orange-bottom {
+  border-bottom: 4px solid #fa4616;
 }
 
 .center-text {
@@ -229,9 +233,61 @@ body {
   text-transform: uppercase;
 }
 
+.reviews {
+  background-image: url("/img/reviews-section-bg.jpg");
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
 .subtab {
   font: 100% "Raleway";
   font-size: 15px;
+}
+
+.star {
+  top: 5%;
+  color: #fa4616;
+}
+
+.swiper-container {
+  height: auto;
+  top: 15vh;
+}
+
+.swiper-container .swiper-slide {
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: auto;
+  height: auto;
+  font: 100% "Raleway";
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+}
+
+.swiper-container .swiper-slide p {
+  padding-left: 6vw;
+  padding-right: 6vw;
+  padding-bottom: 0vh;
+}
+
+.swiper-container .swiper-slide .swiper-link {
+  font-size: 18px;
+  color: #007ABA;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  padding-top: 5%;
+  text-transform: uppercase;
 }
 
 .text-nowrap {
