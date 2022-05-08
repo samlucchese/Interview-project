@@ -11,22 +11,10 @@ body {
     padding-bottom: 70px;
 }
 
-.background {
-    $header-img: url('/img/hero-banner-desktop-size.jpg');
-    background-image: $header-img;
-    // object-fit: cover;
-    height: 100vh;
-    width: 100vw;
-    // background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -5;
-    position: absolute;
-
-}
 
 
+$header-img: url('/img/hero-banner-desktop-size.jpg');
+$reviews-image: url('/img/reviews-section-bg.jpg');
 $raleway: 'Raleway';
 $blue-color: #007ABA;
 $white: #ffffff;
@@ -54,6 +42,21 @@ $bold: 700;
     font-size: $nav-tab;
     letter-spacing: 2px;
     color: $bodytext-light;
+}
+
+.background {
+
+    background-image: $header-img;
+    // object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    // background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -5;
+    position: absolute;
+
 }
 
 .bg-white {
@@ -123,6 +126,10 @@ $bold: 700;
     .card-link {
         font-weight: $semi;
         font-size: $body-text;
+    }
+
+    .orange-bottom {
+        border-bottom: 4px solid $secondary;
     }
 
 
@@ -284,13 +291,71 @@ $bold: 700;
     }
 }
 
+.reviews {
+    background-image: $reviews-image;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 
+    height: 100%;
+    width: 100%;
+
+
+}
 
 
 .subtab {
     font: 100% $raleway;
     font-size: 15px;
 }
+
+.star {
+    top: 5%;
+    color: $secondary;
+}
+
+
+.swiper-container {
+    height: auto;
+    top: 15vh;
+
+    .swiper-slide {
+        background-color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: auto;
+        font: 100% $raleway;
+        padding-top: 6vh;
+        padding-bottom: 6vh;
+
+        p {
+            padding-left: 6vw;
+            padding-right: 6vw;
+            padding-bottom: 0vh;
+        }
+
+        .swiper-link {
+            font-size: $body-text;
+            color: $blue-color;
+            font-weight: $bold;
+            letter-spacing: 1.5px;
+            padding-top: 5%;
+            text-transform: uppercase;
+
+        }
+
+
+    }
+}
+
+// .middle {
+//     display: block;
+//     margin-left: auto;
+//     margin-right: auto;
+
+// }
 
 .text-nowrap {
     white-space: nowrap;
@@ -309,3 +374,12 @@ $bold: 700;
 .white {
     color: $white;
 }
+
+
+
+
+// .discourse-swiper {
+//     margin-top: 10px;
+//     margin-bottom: 20px;
+//     display: none;
+// }
