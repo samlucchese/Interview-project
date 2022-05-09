@@ -67,6 +67,8 @@ body {
   font: 100% "Raleway";
   color: #ffffff;
   border: none;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .button2 {
@@ -76,6 +78,20 @@ body {
   font: 100% "Raleway";
   color: #007ABA;
   border: 1px solid #007ABA;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.button3 {
+  max-width: 504px;
+  height: 65px;
+  background-color: #ffffff;
+  font: 100% "Raleway";
+  font-weight: 700;
+  border: none;
+  text-transform: uppercase;
+  color: #007ABA;
+  margin-top: 7%;
 }
 
 .big-logo {
@@ -126,9 +142,11 @@ body {
   background-color: #007ABA;
   color: #ffffff;
   text-align: center;
-  padding-top: 2vh;
-  font: 2vh "Raleway", bold;
-  height: 7vh;
+  padding-top: 1.5vh;
+  font: 3vh "Raleway", bold;
+  height: 45px;
+  width: 375px;
+  font-weight: 600;
   font-size: 16px;
 }
 
@@ -141,6 +159,52 @@ body {
   display: block;
   line-height: 1em;
   max-height: 2em;
+}
+
+.contact {
+  background-color: #ffffff;
+  padding-top: 7%;
+  font: 100% "Raleway";
+  padding-bottom: 7%;
+}
+
+.contact h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.contact h2 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.contact p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.contact input {
+  background-color: #007ABA;
+  border-color: #ffffff;
+  border-radius: 0 !important;
+}
+
+.contact label {
+  color: #ffffff;
+}
+
+.contact .contact-form {
+  background-color: #ffffff;
+  padding-top: 2%;
+}
+
+.contact .consult-form {
+  background-color: #007ABA;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  padding-bottom: -3%;
 }
 
 .fill {
@@ -186,6 +250,7 @@ body {
   font-weight: 600;
   font-size: 18px;
   color: #007ABA;
+  text-transform: uppercase;
 }
 
 .medium {
@@ -294,7 +359,32 @@ body {
 
 .prefooter {
   background-color: #F2F8FC;
-  min-height: 100vh;
+  min-height: auto;
+  padding: 5%;
+  text-align: center;
+  font: 100% "Raleway";
+}
+
+.prefooter h1 {
+  text-transform: capitalize;
+  font-size: 32px;
+  -webkit-text-size-adjust: auto;
+     -moz-text-size-adjust: auto;
+      -ms-text-size-adjust: auto;
+          text-size-adjust: auto;
+  font-weight: semi;
+}
+
+.prefooter h2 {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.prefooter p {
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 2em;
 }
 
 .reviews {
@@ -339,6 +429,7 @@ body {
   height: auto;
   min-height: 10vh;
   font: 100% "Raleway";
+  border-bottom: 4px solid #fa4616;
 }
 
 .swiper-container .swiper-slide p {
@@ -389,7 +480,7 @@ body {
 }
 
 .xcontent .extra {
-  font: "Raleway";
+  font: 100% "Raleway";
   text-align: left;
 }
 
@@ -399,7 +490,9 @@ body {
 }
 
 .xcontent .extra p {
-  font-weight: 100;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 2em;
 }
 
 .xcontent .extra a {

@@ -34,6 +34,8 @@ $quotes: 18px;
 $body-text: 18px;
 $nav-tab: 15px;
 $procedure-title: 32px;
+$footer-heading: 32px;
+$footer-h2: 20px;
 
 $thin: 100;
 $light: 300;
@@ -111,6 +113,8 @@ $bold: 700;
     font: 100% $raleway;
     color: $white;
     border: none;
+    text-transform: uppercase;
+    font-weight: $semi;
 
 }
 
@@ -121,7 +125,22 @@ $bold: 700;
     font: 100% $raleway;
     color: $blue-color;
     border: 1px solid $blue-color;
+    text-transform: uppercase;
+    font-weight: $semi;
 }
+
+.button3 {
+    max-width: 504px;
+    height: 65px;
+    background-color: $white;
+    font: 100% $raleway;
+    font-weight: $bold;
+    border: none;
+    text-transform: uppercase;
+    color: $blue-color;
+    margin-top: 7%;
+}
+
 
 .big-logo {
     max-width: 100%;
@@ -176,9 +195,11 @@ $bold: 700;
     background-color: $blue-color;
     color: $white;
     text-align: center;
-    padding-top: 2vh;
-    font: 2vh $raleway, bold;
-    height: 7vh;
+    padding-top: 1.5vh;
+    font: 3vh $raleway, bold;
+    height: 45px;
+    width: 375px;
+    font-weight: $semi;
 
     .ctext {
         text-size-adjust: auto;
@@ -193,6 +214,55 @@ $bold: 700;
     font-size: 16px;
 
 
+}
+
+.contact {
+    background-color: $white;
+    padding-top: 7%;
+    font: 100% $raleway;
+    padding-bottom: 7%;
+
+
+    h1 {
+        font-size: $headings;
+        font-weight: $regular;
+    }
+
+    h2 {
+        font-size: $footer-heading;
+        font-weight: $regular;
+        color: $white;
+    }
+
+    p {
+        font-size: $body-text;
+        font-weight: $light;
+    }
+
+    input {
+        background-color: $blue-color;
+        border-color: $white;
+        border-radius: 0 !important;
+    }
+
+    label {
+        color: $white;
+    }
+
+
+    .contact-form {
+        background-color: $white;
+        padding-top: 2%;
+    }
+
+    .consult-form {
+        background-color: $blue-color;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 2%;
+        padding-bottom: -3%;
+
+    }
 }
 
 
@@ -252,6 +322,7 @@ $bold: 700;
     font-weight: $semi;
     font-size: $body-text;
     color: $blue-color;
+    text-transform: uppercase;
 }
 
 
@@ -379,7 +450,32 @@ $bold: 700;
 
 .prefooter {
     background-color: $light-blue;
-    min-height: 100vh;
+    min-height: auto;
+    padding: 5%;
+    text-align: center;
+    font: 100% $raleway;
+
+    h1 {
+        text-transform: capitalize;
+        font-size: $footer-heading;
+        text-size-adjust: auto;
+        font-weight: semi;
+
+
+    }
+
+    h2 {
+        font-weight: bold;
+        font-size: $footer-h2;
+        text-transform: capitalize;
+    }
+
+    p {
+        font-weight: $thin;
+        font-size: $body-text;
+        line-height: 2em;
+
+    }
 }
 
 
@@ -422,6 +518,7 @@ $bold: 700;
     padding-bottom: 5vh;
 
 
+
     .swiper-slide {
         background-color: $white;
         // display: flex;
@@ -433,6 +530,7 @@ $bold: 700;
         font: 100% $raleway;
         // padding-top: 6vh;
         // padding-bottom: 6vh;
+        border-bottom: 4px solid $secondary;
 
         p {
             padding-left: 6vw;
@@ -493,7 +591,7 @@ $bold: 700;
     margin-bottom: 10vh;
 
     .extra {
-        font: $raleway;
+        font: 100% $raleway;
         text-align: left;
 
 
@@ -503,7 +601,9 @@ $bold: 700;
         }
 
         p {
-            font-weight: $thin;
+            font-weight: $light;
+            font-size: $body-text;
+            line-height: 2em;
 
 
 

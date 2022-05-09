@@ -80,12 +80,13 @@
                                 <div class="d-flex  justify-content-around">
                                     <a href="#instagram"><i class="fa-brands fa-instagram fa-2x"></i></a>
                                     <a href="#facebook"><i class="fa-brands fa-facebook fa-2x"></i></a>
-                                    <a href="#linkedin"><i class="fa-brands fa-linkedin-in fa-2x"></i></a>
+                                    <a href="#linkedin"><i class="fa-brands fa-yelp fa-2x"></i></a>
                                 </div>
                             </div>
-                            <div class="col col-sm-4 phone-num">(123) 456-7890</div>
-                            <div class="col col-sm-5  consultation">
-                                <a class="align-items-center text-white" href="#consultation"> REQUEST
+                            <div class="col-sm-4 phone-num">(123) 456-7890</div>
+                            <div class="col-sm-5 consultation ">
+                                <a class="align-items-center text-white" href="#consultation">
+                                    REQUEST
                                     CONSULTATION</a>
                             </div>
 
@@ -593,7 +594,7 @@
                 <div class="col-sm-5">
                     <div class="my-auto bg-white line-space extra" style="padding-top: 0%; margin-left: 0%;">
                         <h4 class="semi">Extra Content Area</h4>
-                        <p class="light" style="p-1">Sed do eiusmod tempor incididunt ut labore et dolore magna
+                        <p class="light " style="">Sed do eiusmod tempor incididunt ut labore et dolore magna
                             aliqua.
                             Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus
                             vel
@@ -729,7 +730,7 @@
                                     <!-- SWIPER CAROUSEL  -->
                                     <!-- Slides -->
 
-                                    <div class="swiper-slide p-4">
+                                    <div class="swiper-slide p-4 ">
                                         <div class="flex-column">
                                             <img src="/img/additional-procedure-headshot-2.jpg"
                                                 style="max-width: 100%; height: autovh; margin-right: 0%;" class="w-100"
@@ -796,7 +797,27 @@
 
         <!-- PRE-FOOTER SECTION  -->
         <section class="prefooter">
-            <div class="container">
+            <div class="row">
+                <span class="col-sm-1"></span>
+                <div class="col-sm-10">
+                    <h1 style="">This is the global footer heading and its long sometimes</h1>
+                    <br>
+                    <h2 class="line-space" style="">City name here | City name here | City name here | City name here |
+                        City name
+                        here | City name
+                        here | City name here | City name here </h2>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+                        sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                        invidunt ut labore et dolore magna erat, sed diam voluptua. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Provident fugit.</p>
+
+
+                    <a href="#contact-us"><button class="button1 mx-2">Contact Us</button></a>
+                    <a href="#call-us"><button class="button2 mx-2">Call us (000) 000-0000</button></a>
+                </div>
+                <span class="col-sm-1"></span>
 
             </div>
         </section>
@@ -804,8 +825,93 @@
 
 
         <!-- CONTACT SECTION  -->
-        <section class="contact">
-            <div class="container">
+        <section class="contact ">
+            <div class="row">
+                <span class="col-sm-1"></span>
+                <div class="col-sm-5 contact-form">
+                    <h1>Contact Us Today</h1>
+                    <br>
+                    <p>1234 Street Name</p>
+                    <p>City Name, CA, 90001</p>
+                    <a href="#get-directions" class="link">Get Directions</a>
+                    <br>
+                    <div class="mt-5 mb-3">
+                        <a href="#instagram"><i class="fa-brands fa-instagram fa-2x px-3"></i></a>
+                        <a href="#facebook"><i class="fa-brands fa-facebook fa-2x px-3"></i></a>
+                        <a href="#yelp"><i class="fa-brands fa-yelp fa-2x px-3"></i></a>
+                    </div>
+                    <br>
+                    <button class="button2 my-3" style="max-width:330px; max-height:65px;">(123) 456-7890</button>
+
+                    <div class="maps pt-5">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18160.795594674648!2d-82.50250506195148!3d27.922753931462474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2c34111d3fa07%3A0x495712bf6faa2447!2sTampa%20Bay%20Periodontics%20and%20Implant%20Dentistry!5e0!3m2!1sen!2sus!4v1652129296154!5m2!1sen!2sus"
+                            width="450vw" height="350vh" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </div>
+
+
+                </div>
+
+                <!-- CONSULTATION REQUEST FORM  -->
+                <div class="col-sm-5 consult-form">
+                    <h2>Request Consultation</h2>
+                    <br>
+                    <div class="">
+                        <form class="needs-validation" novalidate>
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="" required>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Field is empty</div>
+
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="" required>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Field is empty</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" class="form-control" id="email" placeholder="" required>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Field is empty</div>
+
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneNumber">Phone Number</label>
+                                <input type="text" class="form-control" id="phoneNumber" placeholder="" required>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Field is empty</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="procedure">Procedure?</label>
+                                <input type="text" class="form-control" id="procedure" placeholder="" required>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Field is empty</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message (Optional):</label>
+                                <input type="text" class="form-control" id="message" placeholder="">
+                            </div>
+                            <br>
+                            <input class="white" type="checkbox" id="invalidCheck" required></input><span
+                                class="white ml-3">I agree to
+                                the terms and conditions</span>
+                            <div class="invalid-feedback">
+                                You must agree before submitting.
+                            </div>
+                            <div class="row mt-5">
+
+                                <button class="button3 w-100">Submit</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+                <span class="col-sm-1"></span>
 
             </div>
         </section>
@@ -813,8 +919,23 @@
 
         <!-- FOOTER (FOOTIE) SECTION  -->
         <section class="footie">
-            <div class="container">
+            <div class="">
 
+                <div class="row footer ">
+                    <span class="col-sm-1"></span>
+                    <div class="col-sm-8">
+                        <p>&copy; 2019 Your Practice Name. All rights reserved. <b>Privacy
+                                Policy.</b> | <b>Sitemap</b> | <b>Accessibility</b>
+                        </p>
+                        <p class="mx-4"> &copy; 2020 Strategic Digital Marketing and Design by <b>Firm
+                                Media</b>.
+                        </p>
+                    </div>
+                    <div class="col-sm-2 text-nowrap mt-4"><a href="index.html" class="white">
+                            <i class="fa-solid fa-arrow-up"></i> Back to
+                            Top</a></div>
+                    <span class="col-sm-1"></span>
+                </div>
             </div>
         </section>
 
@@ -831,21 +952,6 @@
 
         <!-- FIGURE OUT HOW TO KEEP FOOTER AT THE END OF PAGE -->
 
-        <div class="row footer ">
-            <span class="col-sm-1"></span>
-            <div class="col-sm-8">
-                <p>&copy; 2019 Your Practice Name. All rights reserved. <b>Privacy
-                        Policy.</b> | <b>Sitemap</b> | <b>Accessibility</b>
-                </p>
-                <p class="mx-4"> &copy; 2020 Strategic Digital Marketing and Design by <b>Firm
-                        Media</b>.
-                </p>
-            </div>
-            <div class="col-sm-2 text-nowrap mt-4"><a href="index.html" class="white">
-                    <i class="fa-solid fa-arrow-up"></i> Back to
-                    Top</a></div>
-            <span class="col-sm-1"></span>
-        </div>
 
 
     </div>
