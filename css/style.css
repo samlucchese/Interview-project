@@ -41,8 +41,18 @@ body {
   width: 100vw;
   background-position: center;
   background-size: cover;
-  z-index: -5;
+  z-index: 0;
   position: absolute;
+}
+
+.bg-image {
+  background-image: url("/img/hero-banner-desktop-size.jpg");
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
 }
 
 .bg-white {
@@ -399,6 +409,10 @@ body {
 
 .semi {
   font-weight: 600;
+}
+
+.specialists {
+  margin-top: 3vh;
 }
 
 .star {

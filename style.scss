@@ -75,6 +75,8 @@ $bold: 700;
 
 }
 
+
+
 .background {
     top: 10vh;
     background-image: $header-img;
@@ -85,9 +87,18 @@ $bold: 700;
     background-position: center;
     // background-repeat: no-repeat;
     background-size: cover;
-    z-index: -5;
+    z-index: 0;
     position: absolute;
 
+}
+
+.bg-image {
+    background-image: $header-img;
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
 }
 
 .bg-white {
@@ -357,11 +368,6 @@ $bold: 700;
 }
 
 
-// .mynav .navbar-nav .nav-link {
-//     color: $black;
-//     font-weight: 600
-// }
-
 
 
 .navbar-fixed {
@@ -514,6 +520,10 @@ $bold: 700;
 .semi {
     font-weight: $semi;
 
+}
+
+.specialists {
+    margin-top: 3vh;
 }
 
 .star {
