@@ -263,28 +263,17 @@ body {
   color: #151515;
   display: inline;
   font-weight: 600;
-}
-
-.mynav li {
-  margin-right: 10px;
-  list-style-type: none;
-  color: #151515;
-}
-
-.mynav .nav-item {
-  color: #151515;
-  float: left;
-  color: white;
-  text-decoration: none;
-  font-size: 1vw;
-  min-width: auto;
-  /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center;
 }
 
-.mynav .navbar-nav .nav-link {
+.mynav .nav-item .nav-link {
+  text-transform: uppercase;
+}
+
+.mynav li {
+  margin-right: 0vw;
+  list-style-type: none;
   color: #151515;
-  font-weight: 600;
 }
 
 .navbar-fixed {
@@ -303,7 +292,13 @@ body {
 }
 
 .navbar-brand {
-  width: auto;
+  background-image: url("/img/Site-logo.png");
+  margin-top: 5%;
+  width: 300px;
+  height: 79px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .orange {

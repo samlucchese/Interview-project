@@ -14,7 +14,7 @@ body {
 }
 
 
-
+$nav-brand: url('/img/Site-logo.png');
 $header-img: url('/img/hero-banner-desktop-size.jpg');
 $reviews-image: url('/img/reviews-section-bg.jpg');
 $add-procedures: url('/img/additional-procedure-bg-1.jpg');
@@ -336,36 +336,31 @@ $bold: 700;
     color: $black;
     display: inline;
     font-weight: $semi;
+    text-align: center;
+
+    .nav-item {
+        .nav-link {
+            text-transform: uppercase;
+        }
+    }
 
     a {}
 
     li {
 
-        margin-right: 10px;
+        margin-right: 0vw;
         list-style-type: none;
         color: $black;
 
 
     }
-
-    .nav-item {
-        color: $black;
-        float: left;
-        color: white;
-        text-decoration: none;
-        font-size: 1vw;
-        min-width: auto;
-        /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-        text-align: center;
-    }
-
-
 }
 
-.mynav .navbar-nav .nav-link {
-    color: $black;
-    font-weight: 600
-}
+
+// .mynav .navbar-nav .nav-link {
+//     color: $black;
+//     font-weight: 600
+// }
 
 
 
@@ -387,8 +382,23 @@ $bold: 700;
 }
 
 .navbar-brand {
-    width: auto;
+    background-image: $nav-brand;
+    margin-top: 5%;
+    width: 300px;
+    height: 79px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
 }
+
+
+
+
+
+
+
+
 
 .orange {
     color: $secondary;
