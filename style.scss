@@ -9,12 +9,15 @@
 
 body {
     padding-bottom: 70px;
+
+
 }
 
 
 
 $header-img: url('/img/hero-banner-desktop-size.jpg');
 $reviews-image: url('/img/reviews-section-bg.jpg');
+$add-procedures: url('/img/additional-procedure-bg-1.jpg');
 $raleway: 'Raleway';
 $blue-color: #007ABA;
 $white: #ffffff;
@@ -44,15 +47,41 @@ $bold: 700;
     color: $bodytext-light;
 }
 
-.background {
 
+
+
+
+
+.add-procedure {
+    background-image: $add-procedures ;
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -5;
+    padding-bottom: 10%;
+    // position: absolute;
+
+    h1 {
+        font: 7vh $raleway;
+        color: $white;
+    }
+
+
+
+}
+
+.background {
+    top: 10vh;
     background-image: $header-img;
-    // object-fit: cover;
+    object-fit: cover;
     height: 100vh;
     width: 100vw;
     // background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
+    // background-repeat: no-repeat;
     background-size: cover;
     z-index: -5;
     position: absolute;
@@ -95,9 +124,8 @@ $bold: 700;
 }
 
 .big-logo {
-    float: left;
-    height: fit-content;
-    width: fit-content;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -151,16 +179,30 @@ $bold: 700;
     padding-top: 2vh;
     font: 2vh $raleway, bold;
     height: 7vh;
+
+    .ctext {
+        text-size-adjust: auto;
+        word-wrap: break-word;
+        display: block;
+        line-height: 1em;
+        max-height: 2em;
+    }
+
     // vertical-align: middle;
     // display: inline;
-    // font-size: 16px;
+    font-size: 16px;
+
 
 }
 
 
 
+
+
+
 .fill {
     background-color: black;
+    min-height: 50vh;
 }
 
 
@@ -188,6 +230,7 @@ $bold: 700;
 
 
 
+
 .icons {
     align-items: center;
     size: 40vw;
@@ -198,22 +241,53 @@ $bold: 700;
     line-height: 2.5em;
 }
 
+
+
+.light {
+    font-weight: $light;
+    font: $raleway;
+}
+
+.link {
+    font-weight: $semi;
+    font-size: $body-text;
+    color: $blue-color;
+}
+
+
 .medium {
     font-weight: 500;
 }
 
 .mynav {
-    font: 2vh $raleway;
+    font: 100% $raleway;
     font-size: $nav-tab;
     color: $black;
     display: inline;
-}
+    font-weight: $semi;
 
-.mynav li {
+    a {}
 
-    margin-right: 10px;
-    list-style-type: none;
-    color: $black;
+    li {
+
+        margin-right: 10px;
+        list-style-type: none;
+        color: $black;
+
+
+    }
+
+    .nav-item {
+        color: $black;
+        float: left;
+        color: white;
+        text-decoration: none;
+        font-size: 1vw;
+        min-width: auto;
+        /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+        text-align: center;
+    }
+
 
 }
 
@@ -222,9 +296,7 @@ $bold: 700;
     font-weight: 600
 }
 
-.navbar-brand {
-    height: 10vh;
-}
+
 
 .navbar-fixed {
     top: 0;
@@ -234,6 +306,18 @@ $bold: 700;
     min-height: 15vh
 }
 
+.navbar-collapse.collapse.in {
+    display: block !important;
+}
+
+.navbar-toggler-icon {
+
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-brand {
+    width: auto;
+}
 
 .orange {
     color: $secondary;
@@ -291,13 +375,25 @@ $bold: 700;
     }
 }
 
+
+
+.prefooter {
+    background-color: $light-blue;
+    min-height: 100vh;
+}
+
+
+
+
+
+
 .reviews {
     background-image: $reviews-image;
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-
-    height: 100%;
+    padding-bottom: 5%;
+    min-height: auto;
     width: 100%;
 
 
@@ -309,6 +405,11 @@ $bold: 700;
     font-size: 15px;
 }
 
+.semi {
+    font-weight: $semi;
+
+}
+
 .star {
     top: 5%;
     color: $secondary;
@@ -317,18 +418,21 @@ $bold: 700;
 
 .swiper-container {
     height: auto;
-    top: 15vh;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+
 
     .swiper-slide {
         background-color: $white;
-        display: flex;
+        // display: flex;
         justify-content: center;
         align-items: center;
         width: auto;
         height: auto;
+        min-height: 10vh;
         font: 100% $raleway;
-        padding-top: 6vh;
-        padding-bottom: 6vh;
+        // padding-top: 6vh;
+        // padding-bottom: 6vh;
 
         p {
             padding-left: 6vw;
@@ -373,6 +477,45 @@ $bold: 700;
 
 .white {
     color: $white;
+}
+
+.wfill {
+    background-color: $white;
+    min-height: 100vh;
+}
+
+.xcontent {
+    background-color: $white;
+    min-height: auto;
+    // max-height: 50vh;
+    padding: 1%;
+    align-items: center;
+    margin-bottom: 10vh;
+
+    .extra {
+        font: $raleway;
+        text-align: left;
+
+
+        h5 {
+            font-weight: $semi;
+            font-size: 22px;
+        }
+
+        p {
+            font-weight: $thin;
+
+
+
+        }
+
+        a {
+            font-weight: $semi;
+            font-size: $body-text;
+            color: $blue-color;
+        }
+
+    }
 }
 
 

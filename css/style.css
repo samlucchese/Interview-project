@@ -14,12 +14,32 @@ body {
   color: #6a6969;
 }
 
+.add-procedure {
+  background-image: url("/img/additional-procedure-bg-1.jpg");
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: auto;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -5;
+  padding-bottom: 10%;
+}
+
+.add-procedure h1 {
+  font: 7vh "Raleway";
+  color: #ffffff;
+}
+
 .background {
+  top: 10vh;
   background-image: url("/img/hero-banner-desktop-size.jpg");
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100vh;
   width: 100vw;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
   z-index: -5;
   position: absolute;
@@ -59,13 +79,8 @@ body {
 }
 
 .big-logo {
-  float: left;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  max-width: 100%;
+  height: auto;
 }
 
 .card {
@@ -114,10 +129,23 @@ body {
   padding-top: 2vh;
   font: 2vh "Raleway", bold;
   height: 7vh;
+  font-size: 16px;
+}
+
+.consultation .ctext {
+  -webkit-text-size-adjust: auto;
+     -moz-text-size-adjust: auto;
+      -ms-text-size-adjust: auto;
+          text-size-adjust: auto;
+  word-wrap: break-word;
+  display: block;
+  line-height: 1em;
+  max-height: 2em;
 }
 
 .fill {
   background-color: black;
+  min-height: 50vh;
 }
 
 .footer {
@@ -149,15 +177,27 @@ body {
   line-height: 2.5em;
 }
 
+.light {
+  font-weight: 300;
+  font: "Raleway";
+}
+
+.link {
+  font-weight: 600;
+  font-size: 18px;
+  color: #007ABA;
+}
+
 .medium {
   font-weight: 500;
 }
 
 .mynav {
-  font: 2vh "Raleway";
+  font: 100% "Raleway";
   font-size: 15px;
   color: #151515;
   display: inline;
+  font-weight: 600;
 }
 
 .mynav li {
@@ -166,13 +206,20 @@ body {
   color: #151515;
 }
 
+.mynav .nav-item {
+  color: #151515;
+  float: left;
+  color: white;
+  text-decoration: none;
+  font-size: 1vw;
+  min-width: auto;
+  /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center;
+}
+
 .mynav .navbar-nav .nav-link {
   color: #151515;
   font-weight: 600;
-}
-
-.navbar-brand {
-  height: 10vh;
 }
 
 .navbar-fixed {
@@ -180,6 +227,18 @@ body {
   position: fixed;
   width: 100%;
   min-height: 15vh;
+}
+
+.navbar-collapse.collapse.in {
+  display: block !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-brand {
+  width: auto;
 }
 
 .orange {
@@ -233,18 +292,28 @@ body {
   text-transform: uppercase;
 }
 
+.prefooter {
+  background-color: #F2F8FC;
+  min-height: 100vh;
+}
+
 .reviews {
   background-image: url("/img/reviews-section-bg.jpg");
   background-position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  padding-bottom: 5%;
+  min-height: auto;
   width: 100%;
 }
 
 .subtab {
   font: 100% "Raleway";
   font-size: 15px;
+}
+
+.semi {
+  font-weight: 600;
 }
 
 .star {
@@ -254,14 +323,12 @@ body {
 
 .swiper-container {
   height: auto;
-  top: 15vh;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
 }
 
 .swiper-container .swiper-slide {
   background-color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -270,9 +337,8 @@ body {
           align-items: center;
   width: auto;
   height: auto;
+  min-height: 10vh;
   font: 100% "Raleway";
-  padding-top: 6vh;
-  padding-bottom: 6vh;
 }
 
 .swiper-container .swiper-slide p {
@@ -305,5 +371,40 @@ body {
 
 .white {
   color: #ffffff;
+}
+
+.wfill {
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.xcontent {
+  background-color: #ffffff;
+  min-height: auto;
+  padding: 1%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10vh;
+}
+
+.xcontent .extra {
+  font: "Raleway";
+  text-align: left;
+}
+
+.xcontent .extra h5 {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.xcontent .extra p {
+  font-weight: 100;
+}
+
+.xcontent .extra a {
+  font-weight: 600;
+  font-size: 18px;
+  color: #007ABA;
 }
 /*# sourceMappingURL=style.css.map */
